@@ -1,0 +1,352 @@
+{
+  "applicants": [
+    {
+      "id": 2,
+      "name": "Elizabeth",
+      "lastname": "Nina",
+      "description": "Me considero una persona con gran capacidad de gestion capaz de afrontar nuevos retos.",
+      "email": "elizabeth@gmail.com",
+      "password": "12345",
+      "position": "Reclutadora de Personal Humano en Claro SAC",
+      "photo": "https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg?w=2000"
+    },
+    {
+      "id": 1,
+      "name": "Heber",
+      "lastname": "Cordova",
+      "description": "Me considero una persona con gran capacidad de gestion capaz de afrontar nuevos retos.",
+      "email": "hbcordova@gmail.com",
+      "password": "123456",
+      "position": "Reclutadora de Personal Humano en Movistar SAC",
+      "photo": "https://img.freepik.com/foto-gratis/apuesto-hombre-empresario-sonriendo-alegre_176420-17877.jpg?w=2000"
+    }
+  ],
+  "announcements": [
+    {
+      "applicantId": "2",
+      "title": "Desarrollador Backend C#",
+      "description": "Necesitamo un desarrollador backend para el proyecto de una aplicación web que se encuentra en desarrollo.",
+      "salary": "5000",
+      "date": "5/1/2022",
+      "visible": true,
+      "ability": "Programacion con Python",
+      "id": 1,
+      "period": "Full Time",
+      "place": "San Isidro,Lima"
+    },
+    {
+      "applicantId": "2",
+      "title": "Desarrollador Backend Python",
+      "description": "Necesitamo un desarrollador backend para el proyecto de una aplicación web que se encuentra en desarrollo.",
+      "salary": "5000",
+      "date": "5/1/2022",
+      "visible": true,
+      "ability": "Programacion con Python",
+      "id": 2,
+      "period": "Full Time",
+      "place": "San Isidro,Lima"
+    },
+    {
+      "applicantId": "2",
+      "title": "Desarrollador Backend Node",
+      "description": "Necesitamo un desarrollador backend para el proyecto de una aplicación web que se encuentra en desarrollo.",
+      "salary": "5000",
+      "date": "5/1/2022",
+      "visible": true,
+      "ability": "Programacion con Python",
+      "id": 3,
+      "period": "Full Time",
+      "place": "San Isidro,Lima"
+    },
+    {
+      "applicantId": "2",
+      "title": "Se necesita desarrollador Full Stack",
+      "description": "Se necesita personal con conocimientos en desarrollo con vue, primevue y asp.net.",
+      "salary": "4500",
+      "date": "6/25/2022",
+      "visible": true,
+      "place": "Cercado de Lima",
+      "ability": "Programacion Web",
+      "period": "Full Time",
+      "id": 4
+    }
+  ],
+  "postulants": [
+    {
+      "id": "1",
+      "name": "Heber",
+      "lastname": "Cordova",
+      "description": "Me considero una persona responsable y trabajadora. Tengo conocimientos en Vue y Angular.",
+      "email": "jhon@gmail.com",
+      "password": "",
+      "github_user": "hbcordova",
+      "photo": "https://static1.abc.es/media/summum/2021/10/01/maxi_iglesias-kXKH--620x349@abc.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "John",
+      "lastname": "Brand",
+      "description": "Me considero una persona responsable y trabajadora.",
+      "email": "jhon@gmail.com",
+      "password": "123456",
+      "github_user": "hbcordova",
+      "photo": "https://st4.depositphotos.com/1049680/i/600/depositphotos_287770354-stock-photo-handsome-man-smiling-cheerful-with.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "postulant_id": 1,
+      "title": "Blog de Cafe",
+      "description": "Pagina realizada con html y css",
+      "url": "https://github.com/hbcord/Blog-De-Caf-",
+      "photo": "https://josefacchin.com/wp-content/uploads/2021/05/crear-un-blog-gratis.png"
+    },
+    {
+      "id": 2,
+      "postulant_id": 2,
+      "title": "Tienda Virtual",
+      "description": "Tienda de ropa realizada con html y css",
+      "url": "https://github.com/hbcord/TiendaVirtual",
+      "photo": "https://phantom-telva.unidadeditorial.es/834cbdecd7feb5e11997245bea86ac92/crop/0x137/1998x1258/resize/828/f/jpg/assets/multimedia/imagenes/2020/11/11/16050829163655.jpg"
+    },
+    {
+      "postulant_id": "1",
+      "title": "Projecto de prueba",
+      "description": "Este proyecto es un proyecto de prueba muy projectable",
+      "url": "github.com",
+      "photo": "https://playeronenews.com/wp-content/uploads/2022/04/genshin-sacaraosa-1024x576.jpg",
+      "id": 3
+    },
+    {
+      "postulant_id": "1",
+      "title": "Anotheeer teeeest",
+      "description": " Descripcion bien descripcionada",
+      "url": "github.com",
+      "photo": "https://areajugones.sport.es/wp-content/uploads/2022/04/sin-titulo-1-50-1080x609.jpg",
+      "id": 4
+    },
+    {
+      "postulant_id": "1",
+      "title": "Last Test",
+      "description": "Este es mi ultimo mero mero test :c",
+      "url": "www.github.com",
+      "photo": "https://www.egames.news/__export/1632862012471/sites/debate/img/2021/09/28/genshin-impact-clown.jpg_423682103.jpg",
+      "id": 5
+    },
+    {
+      "postulant_id": "1",
+      "title": "Ahora si mi ultimo test :c",
+      "description": "Mi ultimo teeeest",
+      "url": "www.github.com",
+      "photo": "https://www.egames.news/__export/1632862012471/sites/debate/img/2021/09/28/genshin-impact-clown.jpg_423682103.jpg",
+      "id": 6
+    },
+    {
+      "postulant_id": "1",
+      "title": "Git Flow Test",
+      "description": "Esta es una prueba de uso de GitFlow",
+      "url": "https://github.com/hbcordova/GitFlow",
+      "photo": "https://blog.latam.playstation.com/tachyon/sites/3/2022/03/1e6ab8ae55795929525a348fb2d20d08e416f835-scaled.jpg",
+      "id": 7
+    }
+  ],
+  "evidences": [
+    {
+      "id": 1,
+      "project_id": 2,
+      "title": "Capture 1",
+      "description": "Vista seccion home de la pagina",
+      "photo": "https://www.emprendedores.es/wp-content/uploads/2020/03/plan-de-negocio-para-montar-una-tienda-de-ropa.jpg"
+    },
+    {
+      "id": 2,
+      "project_id": 1,
+      "title": "Capture 1",
+      "description": "Vista seccion home de la pagina",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/640px-A_small_cup_of_coffee.JPG"
+    },
+    {
+      "project_id": 7,
+      "title": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "photo": "https://www.egames.news/__export/1632862012471/sites/debate/img/2021/09/28/genshin-impact-clown.jpg_423682103.jpg",
+      "id": 3
+    },
+    {
+      "project_id": 7,
+      "title": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "photo": "https://www.egames.news/__export/1632862012471/sites/debate/img/2021/09/28/genshin-impact-clown.jpg_423682103.jpg",
+      "id": 4
+    },
+    {
+      "project_id": 7,
+      "title": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "photo": "https://www.egames.news/__export/1632862012471/sites/debate/img/2021/09/28/genshin-impact-clown.jpg_423682103.jpg",
+      "id": 5
+    },
+    {
+      "project_id": 7,
+      "title": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "photo": "https://www.egames.news/__export/1632862012471/sites/debate/img/2021/09/28/genshin-impact-clown.jpg_423682103.jpg",
+      "id": 6
+    },
+    {
+      "project_id": 7,
+      "title": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "photo": "https://www.egames.news/__export/1632862012471/sites/debate/img/2021/09/28/genshin-impact-clown.jpg_423682103.jpg",
+      "id": 7
+    },
+    {
+      "project_id": 7,
+      "title": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "photo": "https://www.egames.news/__export/1632862012471/sites/debate/img/2021/09/28/genshin-impact-clown.jpg_423682103.jpg",
+      "id": 8
+    },
+    {
+      "project_id": 7,
+      "title": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaa",
+      "photo": "https://www.egames.news/__export/1632862012471/sites/debate/img/2021/09/28/genshin-impact-clown.jpg_423682103.jpg",
+      "id": 9
+    }
+  ],
+  "notifications": [
+    {
+      "state": "accepted",
+      "type": "postulant",
+      "announcement_id": 1,
+      "postulant_id": 1,
+      "date": "2022-04-27",
+      "id": 1,
+      "title": "¡En hora buena! Fuiste aceptado para un puesto laboral",
+      "description": "Fuiste elegido por Heber Cordova para Claro SAC"
+    },
+    {
+      "state": "accepted",
+      "applicantId": 2,
+      "announcement_id": 1,
+      "postulant_id": 1,
+      "date": "Fri May 20 2022 00:29:48 GMT-0500 (hora estándar de Perú)",
+      "title": "¡En hora buena! Fuiste aceptado para un puesto laboral",
+      "description": "Fuiste elegido por Claro Perú SAC",
+      "feedback": "",
+      "id": 2
+    },
+    {
+      "applicantId": 1,
+      "announcement_id": 1,
+      "postulant_id": 1,
+      "date": "Fri May 20 2022 23:29:31 GMT-0500 (hora estándar de Perú)",
+      "state": "denied",
+      "id": 3,
+      "title": "¡Sigue intentando!",
+      "description": "Revisa el feedback para mejorar tus habilidades.",
+      "feedback": "Hemos recibido tu candidatura para el proceso de selección y hemos decidido no proceder con tu candidatura. En estos momentos necesitamos incorporar a alguien que se ajuste mejor al perfil definido.\n\nNo obstante, te animamos a que nos sigas la pista, a nosotros/as y a nuestra vacantes, ya que estamos en pleno proceso de crecimiento, y quizás en otra ocasión nuestras motivaciones se alineen.\n\n¡Gracias por tu confianza y mucha suerte!"
+    },
+    {
+      "applicantId": 1,
+      "announcement_id": 2,
+      "postulant_id": 1,
+      "date": "Sat May 21 2022 21:04:15 GMT-0500 (hora estándar de Perú)",
+      "state": "pending",
+      "title": "Has aplicado para Desarrollador Backend C#",
+      "description": "Te avisaremos en cuanto haya una actualización del solicitador del empleo",
+      "feedback": "",
+      "id": 4
+    },
+    {
+      "applicantId": 1,
+      "announcement_id": 1,
+      "postulant_id": 1,
+      "date": "Mon May 23 2022 07:16:30 GMT-0500 (Peru Standard Time)",
+      "state": "pending",
+      "title": "Has aplicado para Desarrollador Backend C#",
+      "description": "Te avisaremos en cuanto haya una actualización del solicitador del empleo",
+      "feedback": "",
+      "id": 5
+    }
+  ],
+  "applications": [
+    {
+      "announcementId": 2,
+      "postulantId": 1,
+      "date": "Mon Jun 13 2022 17:42:56 GMT-0500 (Peru Standard Time)",
+      "status": "accepted",
+      "id": 3
+    }
+  ],
+  "enterprises": [
+    {
+      "id": 1,
+      "applicantId": 1,
+      "name": "Gloria SAC",
+      "description": "Somos una empresa dedicada a la elaborarion de productos alimenticios.",
+      "ruc": "768 454 321 989",
+      "phone": "324 1765 348",
+      "website": "https://www.gloria.com.pe/",
+      "photo": "https://i.pinimg.com/originals/84/fe/92/84fe9246996e7c3ab203f05313965906.jpg"
+    },
+    {
+      "id": 2,
+      "applicantId": 2,
+      "name": "Movistar SAC",
+      "description": "Somos una empresa dedicada a la telefonia y comunicaciones en el Peru.",
+      "ruc": "745 454 301 989",
+      "phone": "564 1765 128",
+      "website": "https://movistarhogar.pe/",
+      "photo": "https://www.adslzone.net/app/uploads-adslzone.net/2016/11/movistar-logo-2017.jpg"
+    }
+  ],
+  "users": [
+    {
+      "email": "hbcordova10@gmail.com",
+      "password": "$2a$10$09/.ixlJCBRMtcWXDPmwve1uwkd9yLXg4Yhv/rpL8W6VV.ximu7Hq",
+      "name": "Heber",
+      "lastname": "Cordova",
+      "userType": "Postulant",
+      "description": "I am Heber",
+      "photo": "https://static1.abc.es/media/summum/2021/10/01/maxi_iglesias-kXKH--620x349@abc.jpeg",
+      "gitHubUser": "hbcordova",
+      "id": 1
+    },
+    {
+      "email": "elizabethnina@gmail.com",
+      "password": "$2a$10$YuXzABCKQrlxsIJqGYzqvewn3URn8.HKAzKozvr1e9MkJvDByq0ii",
+      "name": "Elizabeth",
+      "lastname": "Nina",
+      "userType": "Applicant",
+      "description": "I am applicant",
+      "photo": "https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg?w=2000",
+      "position": "Reclutadora de Talento Humano",
+      "id": 2
+    },
+    {
+      "email": "heber10@gmail.com",
+      "password": "$2a$10$afT0nuoiS8b6AXBXeItcceYsDxCWLTzTj5JD5uB7ADktymwyRfF6.",
+      "name": "Heber ",
+      "lastname": "Cordova Jimenez",
+      "userType": "Postulant",
+      "description": "Student ",
+      "photo": "data:image/jpeg;base64,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",
+      "gitHubUser": "hbcordova",
+      "id": 3
+    },
+    {
+      "email": "maria@gmail.com",
+      "password": "$2a$10$.YNoxOUis.cA8HFYlXk4ce5uOir92iUm8myCsuadZioOss4aKhO5e",
+      "name": "Maria",
+      "lastname": "Cordova Jimenez",
+      "userType": "Applicant",
+      "description": "Hola mi nombre es Maria Cordova",
+      "photo": "https://img.freepik.com/foto-gratis/mujer-joven-rubia-confiada-brazos-cruzados-que-oponen-al-fondo-blanco_23-2148028933.jpg?w=2000",
+      "position": "Reclutadora de Talento Humano",
+      "id": 4
+    }
+  ]
+}
