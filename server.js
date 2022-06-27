@@ -1,4 +1,4 @@
-const data = require("./db.js")
+const data = require("data/db.json")
 
 const jsonServer = require("json-server");
 const server = jsonServer.create();
